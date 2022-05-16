@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Internal js</title>
+	<script type="text/javascript">
+		function hello() {
+		//	document.getElementById("demo").innerHTML="hello js"
+       //      alert("hello js");
+       data = window.confirm("are you sure?");
+       console.log(data);
+		}
+	</script>
+</head>
+<body>
+<h1>hello internal js</h1>
+<h1 id="demo">i am going to replaced by a js function call</h1>
+<button onclick="hello()">click to change</button>
+</body>
+</html>

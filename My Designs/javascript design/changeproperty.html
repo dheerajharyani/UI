@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>change property</title>
+	<script type="text/javascript">
+		function HappyToSad(){
+			document.getElementById('demo').src="Images/happy.jpg"
+		}
+			function SadToHappy(){
+			document.getElementById('demo').src="Images/sad.png"
+		}
+	function AngryToSurprised(){
+			document.getElementById('demo1').src="Images/angry.png"
+		}
+	function SurprisedToAngry(){
+			document.getElementById('demo1').src="Images/surprised.png"
+		}
+
+	</script>
+</head>
+<body>
+<h1>we can change emotions by JS</h1>
+<img src="Images/happy.jpg" id="demo"><br>
+<img src="Images/angry.png"id=demo1><br>
+<button onclick="HappyToSad()">HAPPY TO SAD</button>
+<button onclick="SadToHappy()">SAD TO HAPPY</button>
+
+<button onclick="AngryToSurprised()">ANGRY TO SUPRISED</button>
+<button onclick="SurprisedToAngry()">SURPRISED TO ANGRY</button>
+
+</body>
+</html>
